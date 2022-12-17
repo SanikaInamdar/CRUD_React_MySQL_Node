@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.info input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+hr {
+  border: 0;
+  margin-top: 22px;
+  clear: both;
+  display: block;
+  width: 90%;
+  background-color: #000000;
+  height: 2px;
+}
+button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+}
+button:hover {
+  cursor: pointer;
+}
+.employees {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.employee {
+  width: 700px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
